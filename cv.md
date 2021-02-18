@@ -1,5 +1,5 @@
 #  Anton Astreika
----
+
 ##  My Address            
    Minsk, Belarus		  
 ##  Contacts:
