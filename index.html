@@ -5,122 +5,134 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .wrapper {
-            margin: 0 auto;
-            width: 60vw;
-            padding: 20px;
-        }
-
-        header {
-            /* background-color: rgb(49, 155, 93); */
-            padding: 5px;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        img {
-            width: 100px;
-            height: 100px;
-        }
-
-        .wrapper>* {
-            padding-bottom: 5px;
-            border-bottom: 1px solid darkgray;
-        }
-
-        .wrapper div {
-            padding: 1 5px;
-            background-color: #fff;
-            margin: 5px 0;
-        }
-
-        li {
-            padding-top: 5px;
-        }
-    </style>
+    <title>CV</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class='wrapper'>
         <header>
-            <h1>Anton Astreika</h1>
-            <img src="https://html5css.ru/w3css/img_avatar3.png" title="avatar" alt="avatar">
+            <img class='imgBlock' src="./photo.jpg" alt="Photo">
+            <div>
+                <h1>Anton Astreika</h1>
+                <h3>Front-end Developer</h3>
+            </div>
         </header>
+        <div class='context-wrapper'>
+            <main>
+                <div>
+                    <h2>Profile</h2>
+                    <p>
+                        I decided to start a career as a front-end developer. Last year I finished HTML, CSS, JS courses
+                         in
+                        IT-Academy. After that I started to learn React with the usage of official documentation and
+                        YouTube
+                        lessons (IT-Kamasutra). I am currently taking EPAM RS School courses.
+                    </p>
+                </div>
+                <div>
+                    <h2>Employment History</h2>
+                    <p class='thing-name'>
+                        Belinvestbank, Minsk
+                    </p>
+                    <p class="date">
+                        February 2019 — December 2020
+                    </p>
+                    <p>
+                        Department for work with legal entities
+                    </p>
+                </div>
+                <div>
+                    <h2>Education</h2>
+                    <p class='thing-name'>
+                        Bachelor, Polessky State University, Pinsk
+                    </p>
+                    <p class="date">
+                        September 2013 — June 2017
+                    </p>
+                </div>
+                <div>
+                    <h2>Courses</h2>
+                    <ul>
+                        <li>
+                            <p class='thing-name'>
+                                HTML, CSS, JS, IT-Academy
+                            </p>
+                            <p class="date">
+                                August 2020 — October 2020
+                            </p>
+                        </li>
+                        <li>
+                            <p class='thing-name'>
+                                JavaScript, IT-Academy
+                            </p>
+                            <p class="date">
+                                December 2020 — March 2021
+                            </p>
+                        </li>
+                        <li>
+                            <p class='thing-name'>
+                                JavaScript/Front-end, EPAM
+                            </p>
+                            <p class="date">
+                                February 2021 — Present
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>About me</h2>
+                    <ul>
+                        <li>Have good analytical skills</li>
+                        <li>Purposeful</li>
+                        <li>Get on well with people</li>
+                    </ul>
+                </div>
+            </main>
+            <aside>
+                <div>
+                    <h3>Details</h3>
+                    <p><a href="mailto:theton1k@mail.ru" target="_blank">theton1k@mail.ru</a></p>
+                </div>
+                <div>
+                    <h3>Links</h3>
+                    <p>
+                        <a href="https://github.com/theton1k" target="_blank">GitHub</a>
 
-        <div>
-            <h2>My Address </h2>
-            <p>Minsk, Belarus</p>
+                    </p>
+                    <p>
+                        <a href="https://www.linkedin.com/in/anton-astreiko-36abb01a1/" target="_blank">LinkedIn</a>
+                    </p>
+                </div>
+                <div>
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>Russian</li>
+                        <li>English</li>
+                    </ul>
+
+                </div>
+            </aside>
         </div>
-        <div>
-            <h2>Contacts: </h2>
-            <p>E-mail: <a href="mailto:theton1k@yandex.ru" title="E-mail">E-mail</a></p>
-            <p>GitHub: <a href="https://github.com/theton1k" title="GitHub">GitHub</a></p>
-        </div>
-
-
-
-
-        <div>
-            <h2>About Me</h2>
-
-            <ul>
-                <li>Junior Front-End Developer without commercial development experience.</li>
-                <li>Skilled at writting well-designed, testable and effecient code using current best practices in Web
-                    development.</li>
-                <li>Fast learned, hard worker and team player who is proficent in an array of scripting languages and
-                    multimedia
-                    Web tools.
-                </li>
-            </ul>
-        </div>
-
-        <div>
-            <h2>Skills</h2>
-
-            HTML, CSS, JS, React, GIT, Redux, Photoshop, Figma
-        </div>
-
-        <div>
-            <h2>My Projects</h2>
-            <ul>
-                <li>feb 2021: <b>React-Marathon by Zar Zacharov</b> <br>
-                    Created simple card game (React Router,Firebase, REST API, React Hooks, React Context, Redux/Redux
-                    Toolkit <br>
-                    <a href="https://github.com/TheTon1k/pokemon-game" title="Pokemon card game">GitHub project Link</a>
-                </li>
-                <li>
-                    jun 2021 - in progress: <b>React - Путь самурая</b> <br>
-                    Creating Social Network (React Router, Axios, REST API, React Hooks, React Context, Redux,Thunk
-                    <br>
-                    <a href="https://github.com/TheTon1k/socialNetwork" title="Social Network">GitHub project Link</a>
-                </li>
-            </ul>
-        </div>
-
-
-        <div>
-            <h2>Education</h2>
-
-            <p>2013-2017: <b>Polessky State University</b>Pinsk, Belarus</p>
-            <i>information technologies and systems</i>
-            <p> 2020-2021: <b>It-academy</b></p>
-            <i>HTML, CSS, JS</i>
-        </div>
-
-        <div>
-            <h2>Languages</h2>
-            <ul>
-                <li> English - B1</li>
-                <li> Russian - native
-                </li>
-                <li>Belorussian - native</li>
-            </ul>
-        </div>
+        <footer>
+            <p>2021</p>
+            <img class='footLogo' src="https://rs.school/images/rs_school_js.svg" alt="rsSchool">
+            <a href="https://www.youtube.com/" target="_blank">
+                <img class='footLogo'
+                    src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg"
+                    alt="youtube.com">
+            </a>
+        </footer>
     </div>
-
-
 </body>
 
 </html>
