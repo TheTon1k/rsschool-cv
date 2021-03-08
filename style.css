@@ -1,0 +1,48 @@
+a {
+  color: rgb(0, 149, 194);
+}
+.wrapper {
+  width: 80vw;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.context-wrapper {
+  display: flex;
+}
+header {
+  display: flex;
+}
+.imgBlock {
+  margin-right: 20px;
+  height: 100px;
+  width: 100px;
+}
+
+.thing-name {
+  font-weight: 700;
+}
+
+.date {
+  font-style: italic;
+}
+aside {
+  width: 30%;
+  margin-left: 10%;
+}
+
+content {
+  width: 60%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer > * {
+  margin: 5px;
+}
+.footLogo {
+  width: 50px;
+  height: 50px;
+}
